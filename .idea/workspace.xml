@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8167ed52-85a9-4ca6-88cf-7e3d0f2905e3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Save+as+PDF+articles+from+Artificial+Lawyer+for+archiving.py" afterPath="$PROJECT_DIR$/Save+as+PDF+articles+from+Artificial+Lawyer+for+archiving.py" />
-    </list>
+    <list default="true" id="8167ed52-85a9-4ca6-88cf-7e3d0f2905e3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
