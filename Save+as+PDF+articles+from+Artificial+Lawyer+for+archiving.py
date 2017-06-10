@@ -54,8 +54,11 @@ def convert_to_pdf(url):
     options = {
         'quiet': ''
     }
-    from_url(url, output, options=options)
-    print("Printed and Finished!")
+    try:
+        from_url(url, output, options=options)
+        print("Printed and Finished!")
+    except:
+        print("Error")
     return next_article
 
 
@@ -65,6 +68,7 @@ first_url = input("Please enter URL: ")
 # Step 2: Get Title, Date, and Next Article URL
 next_article = convert_to_pdf(first_url)
 
-for i in range(25):
+for i in range(100):
     current_article = next_article
+    print("Article Number ", i)
     next_article = convert_to_pdf(current_article)
